@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.list{
+    padding-bottom: 2em;
+    padding-top: .5em;
+    padding-right: 1em;
+    list-style: none;
+}
+.list .item{
+    display: inline;
+    float: right;
+    padding-right: 1em;
+}
+.list .item .link{
+    text-decoration: none;
+    background: lightblue;
+    border-radius: 20px;
+    padding: .4em;
+}
+img{
+    max-width: 100%;
+}
+h1{
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.3rem;
+    padding-bottom: 2em;
+}
+p{
+    font-size: 1rem;
+}
+.top{
+    margin: 0 auto;
+    width: 90%;
+    line-height: 1.2;
+}
+
+/* services */
+.services{
+    text-align:center;
+}
+.ones{
+    background-image: url(./assets/11.jpg);
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-position: center;
+}
+.one{
+    color: white;
+    padding: 1em;
+}
+.about{
+    margin: 20px auto 20px;
+    width: 90%;
+    /* text-align: center; */
+}
+.about-img{
+    max-width: 50%;
+}
+.work{
+    margin: 1em auto;
+    width: 90%;
+}
+
+
+/* @media (min-width: 600px){
+    p{
+        font-size: 2em;
+    }
+    b{
+        display: block;
+    }
+    .titles{
+        height: 100%;
+        align-items: center;
+    }
+    .top-img{
+        max-width: 30%;
+    }
+    .top{
+        margin: 5em auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row-reverse;
+        width: 1000px;
+    }
+    .ones{
+        flex-direction: row;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .content{
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2em;
+    }
+    .content p{
+        font-size: 1.7em;
+    }
+    .para{
+        width: 50%;
+    }
+    .about h1{
+        text-align: center;
+    }
+    .about-img{
+        max-width: 40%;
+    }
+    .work{
+        margin: 5em;
+        text-align: center;
+    }
+
+}
+@media (max-width: 450px){
+    .img{
+        max-width: 100%;
+    }
+    .nav, .about,.services{
+        margin: 0 auto;
+        width: 95%;
+    }
+    .nav{
+        justify-content: center;
+    }
+} */
+
+footer{
+    background: #123456;
+    text-align: center;
+    padding: 2em;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    display: inline;
+    padding-left: 1em;
+    text-decoration: none;
+    font-size: 2em;
+}
+footer ul li i{
+    color: white;
+}
